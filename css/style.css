@@ -1,0 +1,19 @@
+:root {
+  --primaryColor: white;
+  --secondaryColor: black;
+  --thirdColor: darkcyan;
+}
+/* nav */
+nav {
+  background-color: var(--secondaryColor);
+}
+nav ul li a {
+  margin: 10px;
+  color: var(--primaryColor);
+  border-bottom: 2px solid var(--primaryColor);
+}
+nav ul li a:hover {
+  color: var(--primaryColor);
+  background-color: var(--thirdColor);
+  border-radius: 20px;
+}
