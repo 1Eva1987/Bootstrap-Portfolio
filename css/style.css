@@ -17,12 +17,15 @@ nav ul li a:hover {
   background-color: var(--thirdColor);
   border-radius: 20px;
 }
+/* end of nav */
+
 /* hero */
 .jumbotron {
   padding-top: 5px;
   background-image: url(../images/02-hero-bg.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   display: flex;
@@ -50,3 +53,10 @@ nav ul li a:hover {
   font-weight: bold;
   background-color: rgb(255, 255, 255, 0.8);
 }
+/* end of hero */
+.project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+/* work section*/
