@@ -17,3 +17,36 @@ nav ul li a:hover {
   background-color: var(--thirdColor);
   border-radius: 20px;
 }
+/* hero */
+.jumbotron {
+  padding-top: 5px;
+  background-image: url(../images/02-hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.hero img {
+  box-shadow: 10px 10px 10px black, 0 0 20px rgb(82, 4, 4);
+}
+
+.hero h1 {
+  background-color: rgb(255, 255, 255, 0.7);
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: var(--secondaryColor);
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.text {
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255, 0.8);
+}
