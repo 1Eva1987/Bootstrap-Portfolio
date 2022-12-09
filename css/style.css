@@ -1,7 +1,13 @@
 :root {
   --primaryColor: white;
   --secondaryColor: black;
-  --thirdColor: darkcyan;
+  /* --thirdColor: darkcyan; */
+  --thirdColor: rgb(82, 4, 4);
+}
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 2px solid var(--secondaryColor);
 }
 /* nav */
 nav {
@@ -21,7 +27,7 @@ nav ul li a:hover {
 
 /* hero */
 .jumbotron {
-  padding-top: 5px;
+  /* padding-top: 5px; */
   background-image: url(../images/02-hero-bg.jpg);
   background-position: center;
   background-size: cover;
@@ -35,8 +41,8 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.hero img {
-  box-shadow: 10px 10px 10px black, 0 0 20px rgb(82, 4, 4);
+.foto {
+  box-shadow: 10px 10px 10px var(--secondaryColor), 0 0 20px rgb(82, 4, 4);
 }
 
 .hero h1 {
@@ -51,12 +57,12 @@ nav ul li a:hover {
 .text {
   font-style: italic;
   font-weight: bold;
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255, 0.7);
 }
 /* end of hero */
-.project {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
+
 /* work section*/
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
