@@ -75,10 +75,19 @@ nav ul li a:hover {
 }
 .cardContainer {
   padding: 10px;
+  display: flex;
 }
+.card-body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .btn {
   background-color: var(--thirdColor);
   border-color: var(--thirdColor);
+  align-self: flex-start;
 }
 .btn:hover {
   background-color: var(--thirdColor);
