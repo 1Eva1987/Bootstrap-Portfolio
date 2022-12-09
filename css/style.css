@@ -4,6 +4,9 @@
   /* --thirdColor: darkcyan; */
   --thirdColor: rgb(82, 4, 4);
 }
+html {
+  scroll-behavior: smooth;
+}
 .title {
   font-weight: bold;
   font-size: 25px;
@@ -27,11 +30,11 @@ nav ul li a:hover {
 
 /* hero */
 .jumbotron {
-  /* padding-top: 5px; */
   background-image: url(../images/02-hero-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 5px;
 }
 .container {
   display: flex;
@@ -40,11 +43,10 @@ nav ul li a:hover {
   align-items: flex-end;
   text-align: center;
 }
-
 .foto {
   box-shadow: 10px 10px 10px var(--secondaryColor), 0 0 20px rgb(82, 4, 4);
+  border-radius: 5px;
 }
-
 .hero h1 {
   background-color: rgb(255, 255, 255, 0.7);
   margin-bottom: 5px;
@@ -53,16 +55,41 @@ nav ul li a:hover {
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
+  border-radius: 5px;
 }
 .text {
   font-style: italic;
   font-weight: bold;
   background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 5px;
 }
 /* end of hero */
 
 /* work section*/
+.card {
+  background-color: rgb(225, 223, 223, 0.3);
+}
 .card img {
-  height: 300px;
+  height: 250px;
   object-fit: cover;
+}
+.cardContainer {
+  padding: 10px;
+}
+.btn {
+  background-color: var(--thirdColor);
+  border-color: var(--thirdColor);
+}
+.btn:hover {
+  background-color: var(--thirdColor);
+  border-color: var(--thirdColor);
+  box-shadow: 10px 10px 10px var(--secondaryColor), 0 0 20px rgb(82, 4, 4);
+}
+/* end of work section */
+/* contacts section */
+.contacts {
+  background-color: var(--secondaryColor);
+}
+.contacts li a {
+  color: var(--primaryColor);
 }
