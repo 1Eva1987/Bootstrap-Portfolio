@@ -87,9 +87,18 @@ nav ul li a:hover {
 }
 /* end of work section */
 /* contacts section */
+
 .contacts {
   background-color: var(--secondaryColor);
+  border-radius: 5px;
 }
 .contacts li a {
   color: var(--primaryColor);
+  border-bottom: 2px solid var(--primaryColor);
+  margin: 10px;
+}
+.contacts li a:hover {
+  color: var(--primaryColor);
+  background-color: var(--thirdColor);
+  border-radius: 20px;
 }
