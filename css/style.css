@@ -1,7 +1,6 @@
 :root {
   --primaryColor: white;
   --secondaryColor: black;
-  /* --thirdColor: darkcyan; */
   --thirdColor: rgb(82, 4, 4);
 }
 html {
@@ -112,8 +111,8 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 .icons-holder p {
-  background-color: var(--secondaryColor);
-  color: white;
+  /* background-color: var(--secondaryColor); */
+  /* color: white; */
   border-radius: 5px;
   padding: 5px 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -133,9 +132,41 @@ nav ul li a:hover {
   color: var(--secondaryColor);
   border-bottom: 2px solid var(--secondaryColor);
   margin: 10px;
+  font-weight: bold;
 }
 .contacts li a:hover {
   color: var(--primaryColor);
   background-color: var(--thirdColor);
   border-radius: 20px;
 }
+/* end of about section */
+/* footer section */
+.footer {
+  background-color: var(--secondaryColor);
+  border-radius: 5px;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  display: flex;
+  justify-content: center;
+}
+.footer li a {
+  font-weight: bold;
+  color: var(--primaryColor);
+  border-bottom: 2px solid var(--primaryColor);
+  margin: 10px;
+}
+.footer li a:hover {
+  color: var(--primaryColor);
+  background-color: var(--thirdColor);
+  border-radius: 20px;
+}
+footer p {
+  background-color: lightgrey;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+span {
+  color: red;
+}
+/* end of footer section */
