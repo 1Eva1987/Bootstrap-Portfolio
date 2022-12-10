@@ -152,7 +152,6 @@ nav ul li a:hover {
   background-color: var(--secondaryColor);
   border-radius: 5px;
   margin-top: 20px;
-  /* margin-bottom: 20px; */
   display: flex;
   justify-content: center;
 }
