@@ -11,6 +11,7 @@ html {
   font-weight: bold;
   font-size: 25px;
   border-bottom: 2px solid var(--secondaryColor);
+  border-radius: 5px;
   text-shadow: 2px 2px rgb(128, 128, 128, 0.5);
 }
 /* nav */
@@ -73,7 +74,7 @@ nav ul li a:hover {
   box-shadow: 0 0 10px black;
 }
 .card img {
-  height: 250px;
+  height: 200px;
   object-fit: cover;
 }
 .cardContainer {
@@ -101,7 +102,9 @@ nav ul li a:hover {
 
 /* end of work section */
 /* skills section */
-
+.skills {
+  margin-top: 20px;
+}
 .icons img {
   margin: 10px;
   padding: 5px;
@@ -117,15 +120,18 @@ nav ul li a:hover {
     "Lucida Sans", Arial, sans-serif;
 }
 /* end of skills section */
-/* contacts section */
-
-.contacts {
-  background-color: var(--secondaryColor);
+/* about section */
+.about {
+  margin-top: 20px;
+}
+.contacts li {
+  box-shadow: 0 0 10px black;
   border-radius: 5px;
+  margin-right: 10px;
 }
 .contacts li a {
-  color: var(--primaryColor);
-  border-bottom: 2px solid var(--primaryColor);
+  color: var(--secondaryColor);
+  border-bottom: 2px solid var(--secondaryColor);
   margin: 10px;
 }
 .contacts li a:hover {
