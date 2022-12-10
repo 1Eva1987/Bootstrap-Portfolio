@@ -11,6 +11,7 @@ html {
   font-weight: bold;
   font-size: 25px;
   border-bottom: 2px solid var(--secondaryColor);
+  text-shadow: 2px 2px rgb(128, 128, 128, 0.5);
 }
 /* nav */
 nav {
@@ -69,6 +70,7 @@ nav ul li a:hover {
 .card {
   background-color: rgb(225, 223, 223, 0.3);
   max-width: 500px;
+  box-shadow: 0 0 10px black;
 }
 .card img {
   height: 250px;
