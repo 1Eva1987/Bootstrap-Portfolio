@@ -91,7 +91,6 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: space-between;
 }
-
 .btn {
   background-color: var(--thirdColor);
   border-color: var(--thirdColor);
@@ -102,8 +101,8 @@ nav ul li a:hover {
   border-color: var(--thirdColor);
   box-shadow: 10px 10px 10px var(--secondaryColor), 0 0 20px rgb(82, 4, 4);
 }
-
 /* end of work section */
+
 /* skills section */
 .skills {
   margin-top: 20px;
@@ -121,17 +120,18 @@ nav ul li a:hover {
     "Lucida Sans", Arial, sans-serif;
 }
 /* end of skills section */
+
 /* about section */
 .about {
   margin-top: 20px;
 }
 .contacts li {
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px var(--secondaryColor);
   border-radius: 5px;
   margin-right: 10px;
 }
 .contacts li:hover {
-  background-color: black;
+  background-color: var(--secondaryColor);
 }
 .contacts li a {
   color: var(--secondaryColor);
@@ -146,6 +146,7 @@ nav ul li a:hover {
   border-bottom: 2px solid var(--primaryColor);
 }
 /* end of about section */
+
 /* footer section */
 .footer {
   background-color: var(--secondaryColor);
