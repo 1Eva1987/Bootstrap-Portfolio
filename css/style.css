@@ -98,6 +98,23 @@ nav ul li a:hover {
 }
 
 /* end of work section */
+/* skills section */
+
+.icons img {
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 0 0 20px var(--secondaryColor);
+  border-radius: 5px;
+}
+.icons-holder p {
+  background-color: var(--secondaryColor);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* end of skills section */
 /* contacts section */
 
 .contacts {
